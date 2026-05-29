@@ -1,0 +1,53 @@
+main {
+  min-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.current {
+  text-transform: uppercase;
+  background-color: lightgray;
+  border-bottom: 2px solid black;
+}
+
+
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+
+nav img {
+  width: 10%;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around; 
+  align-items: center;           
+  row-gap: 20px;                 
+}
+
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;               
+  justify-content: space-between; 
+}
